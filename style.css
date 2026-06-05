@@ -1,21 +1,37 @@
+
 body {
     background: linear-gradient(to right, black, rgb(218, 173, 118), rgb(218, 173, 118), rgb(218, 173, 118));
     margin: 10px;
+html{
+    margin: 0;
+    box-sizing: border-box;
 }
+body {
+    background:linear-gradient(white,aquamarine) ;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
 .welcom {
     text-align: center;
     border: solid orange 3px;
     border-radius: 10px;
+
     background-color: orange;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+    background: white;
+}
+.welcom h1{
+    color: aquamarine;
+}
+.welcom p{
+    font-size: 18px;
 }
 
 main {
     text-align: center;
 }
-
 .sujet {
+
     color: black;
 }
 
@@ -23,13 +39,28 @@ a {
     color: black;
     text-decoration: none;
     transition: 0.5s;
+    color: blue;
+}
+hr{
+    width: 150px;
+    height: 5px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,white,aquamarine);
 }
 
+a{
+    text-decoration: none;
+    transition:color 0.5s;
+    font-weight: bold;
+}
 a:hover {
     color: orange;
 }
 
 section {
+
     border: solid orange 3px;
     border-radius: 20px;
     margin: 30px;
@@ -61,4 +92,35 @@ button:hover {
 
 .fin a {
     color: orange;
+    border: 3px solid purple ;
+    border-radius: 20px;
+    margin: 30px;
+    background: white;
+    padding: 50px 0;
+}
+
+
+
+.proposition{
+    padding: 60px 0;
+    background: rgb(14, 14, 56);
+    border: none;
+}
+.proposition h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 15px;
+    border-radius: 15px;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.btn:hover{
+    background: orange;
+    color: blue;
 }
