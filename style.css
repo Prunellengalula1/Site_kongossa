@@ -1,49 +1,79 @@
-body {
-    background-color: bisque;
-    margin: 10px;
+html{
+    margin: 0;
+    box-sizing: border-box;
 }
-
+body {
+    background:linear-gradient(white,aquamarine) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .welcom {
     text-align: center;
     border: solid blue 3px;
     border-radius: 10px;
+    background: white;
+}
+.welcom h1{
+    color: aquamarine;
+}
+.welcom p{
+    font-size: 18px;
 }
 
 main {
     text-align: center;
 }
-
 .sujet {
     color: blue;
-
+}
+hr{
+    width: 150px;
+    height: 5px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,white,aquamarine);
 }
 
-a {
+a{
     text-decoration: none;
-    transition: 0, 5s;
+    transition:color 0.5s;
+    font-weight: bold;
 }
-
 a:hover {
     color: orange;
 }
 
 section {
-    border: solid blue 3px;
+    border: 3px solid purple ;
     border-radius: 20px;
     margin: 30px;
-}
-
-button {
-    border: black solid 2px;
-    background-color: beige;
+    background: white;
+    padding: 50px 0;
 }
 
 
 
-
-
-button {
-    text-decoration: none;
-    "
-
+.proposition{
+    padding: 60px 0;
+    background: rgb(14, 14, 56);
+    border: none;
 }
+.proposition h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 15px;
+    border-radius: 15px;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.btn:hover{
+    background: orange;
+    color: blue;
+}
+
