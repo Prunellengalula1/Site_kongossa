@@ -1,12 +1,14 @@
 body {
-    background-color: bisque;
+    background: linear-gradient(to right, black, rgb(218, 173, 118), rgb(218, 173, 118), rgb(218, 173, 118));
     margin: 10px;
 }
 
 .welcom {
     text-align: center;
-    border: solid blue 3px;
+    border: solid orange 3px;
     border-radius: 10px;
+    background-color: orange;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
 }
 
 main {
@@ -14,13 +16,13 @@ main {
 }
 
 .sujet {
-    color: blue;
-
+    color: black;
 }
 
 a {
+    color: black;
     text-decoration: none;
-    transition: 0, 5s;
+    transition: 0.5s;
 }
 
 a:hover {
@@ -28,22 +30,35 @@ a:hover {
 }
 
 section {
-    border: solid blue 3px;
+    border: solid orange 3px;
     border-radius: 20px;
     margin: 30px;
 }
 
-button {
-    border: black solid 2px;
-    background-color: beige;
+.fin {
+    border: solid orange 3px;
+    border-radius: 10px;
+    background-color: orange;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+    padding: 10px;
 }
 
-
-
-
-
 button {
-    text-decoration: none;
-    "
+    border: orange solid 2px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1s);
+}
 
+button:hover {
+    border: orange solid 2px;
+    background-color: beige;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.fin a {
+    color: orange;
 }
