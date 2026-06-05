@@ -1,0 +1,49 @@
+body {
+    background-color: bisque;
+    margin: 10px;
+}
+
+.welcom {
+    text-align: center;
+    border: solid blue 3px;
+    border-radius: 10px;
+}
+
+main {
+    text-align: center;
+}
+
+.sujet {
+    color: blue;
+
+}
+
+a {
+    text-decoration: none;
+    transition: 0, 5s;
+}
+
+a:hover {
+    color: orange;
+}
+
+section {
+    border: solid blue 3px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+button {
+    border: black solid 2px;
+    background-color: beige;
+}
+
+
+
+
+
+button {
+    text-decoration: none;
+    "
+
+}
